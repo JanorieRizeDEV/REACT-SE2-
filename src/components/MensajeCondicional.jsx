@@ -19,7 +19,7 @@ const MensajeCondicional = () => {
       */}
       {mostrarMensaje ? <p>Tu mensaje es: {mostrarMensaje}</p> : <p>No hay mensaje para mostrar</p>}
       {/* Uso del operador && para mostrar el botón solo si hay mensaje */}
-      {mostrarMensaje && <button onClick={() => {alert(`Mensaje enviado. Mensaje: ${mostrarMensaje}`)}}>Borrar mensaje</button>}
+      {mostrarMensaje && <button onClick={() => {alert(`Mensaje enviado. Mensaje: ${mostrarMensaje}`)}}>enviar mensaje</button>}
     </div>
   )
 }
